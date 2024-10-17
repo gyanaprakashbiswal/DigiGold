@@ -751,7 +751,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="modal-content">
 
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <button type="button" class="close" data-dismiss="#"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     <p class="h2model text-center">Verify OTP</p>
                 </div>
 
@@ -761,7 +761,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <input class="required" id="otp_id" name="otp_id" type="hidden" value="">
                         <input class="required" id="otp_std_code" name="otp_std_code" type="hidden" value="">
                         <div class="form-group">
-                            <div class="row">                            
+<!-- <!--                             <div class="row">                            
                                                                                                 <div class="col-sm-12">
                                     <div class="input-group">
                                         We have sent you OTP on your mobile number <span id="mobile_number_span"></span>. <a href="javascript:void:;" class="change-mobile-number-link">Edit</a>
@@ -779,8 +779,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <input class="form-control" id="otp" placeholder="Enter OTP" name="otp" type="text">
                                         <a class="resend_otp" href="javascript:void:;">Resend OTP</a>
                                     </div>
-                                </div>
-
+                                </div> -->
+ -->
                                 <div class="col-sm-12">
                                     <div class="input-group">
                                                                                     <div class="g-recaptcha"
@@ -1056,13 +1056,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-sm-3 col-xs-12 contact-cols">
 <div class="footer-col contact-us">
 <p class="linkheader">Contact Us</p>
-<p>19-20-21, Narayan Chambers, <br />3rd Floor, Behind Patang Hotel, <br />Ashram Road, Ahmedabad -380009.</p>
-<p><a href="tel:918062281387">+91 80 6228 1387</a>&nbsp;</p>
-<p><a href="mailto:support@digigold.com">support@digigold.com</a></p>
+<p>Dynasty business park<br />Metro Station, Near, Andheri - Kurla Rd, Vijay Nagar Colony, Chakala, <br />Andheri East, Mumbai, Maharashtra 400065.</p>
+<p><a href="tel:912269718948">+91 22 6971 8948</a>&nbsp;</p>
 </div>
-</div>
-<div class="col-sm-2 col-xs-12 social-cols">
-<div class="social-media"><a href="https://www.facebook.com/digigoldind" target="__blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="https://www.instagram.com/digigoldind/" target="__blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="https://twitter.com/digigoldind" target="__blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/company/digigold" target="__blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="https://www.youtube.com/channel/UC5hNuESG8VecSQRQhwdM41Q" target="__blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> <a href="https://api.whatsapp.com/send?phone=917574009412" target="__blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></div>
 </div>
 </div>
 			
@@ -1071,9 +1067,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-md-12">
 <div class="col-md-8">
 <p style="text-align: left;">Copyright &copy; 2020 <a href="#">DigiGold.com</a> All Rights Reserved</p>
-</div>
-<div class="col-md-4">
-<p style="text-align: right;">Website &amp; App Managed by <a href="https://fleek.media" target="_blank" rel="noopener">Fleek Media</a></p>
 </div>
 </div>
 </div>
@@ -1090,7 +1083,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="modal-content">
                         <div class="modal-body jeweller_model_ad">
                             <button type="button" class="adclosebtn" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                            <a href="https://www.digigold.com/jewellers-program">
+                            <a href="#">
                             <img src="https://www.digigold.com/images/DGpopup.jpg" width="100%"></a>
                         </div>
                     </div>
@@ -1114,7 +1107,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             const COUNTRY_URL = "https://www.digigold.com/ajax/get/countrie",
                 STATE_URL = "https://www.digigold.com/ajax/get/states",
                 CITY_URL = "https://www.digigold.com/ajax/get/cities";
-                RETAILER_VERIFY = "https://www.digigold.com/check-retailer-details";
+                RETAILER_VERIFY = "#";
             var is_country = false,
                 countires_id = "",
                 states_id = "",
@@ -1163,13 +1156,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           window.location.reload();
         }, 300000);
          
-		var app_get_sms_request = "https://www.digigold.com/ajax/send/getapp/sms";
+		var app_get_sms_request = "#";
 		
-		var buy_gold_ajax_request = "https://www.digigold.com/ajax/buy/calculate";
-    	var buy_gold_availability_ajax_request = "https://www.digigold.com/ajax/buy/availability";
+		var buy_gold_ajax_request = "#";
+    	var buy_gold_availability_ajax_request = "#";
 		
-		var buy_silver_ajax_request = "https://www.digigold.com/ajax/buy/silver/calculate";
-		var buy_silver_availability_ajax_request = "https://www.digigold.com/ajax/buy/silver/availability";
+		var buy_silver_ajax_request = "#";
+		var buy_silver_availability_ajax_request = "#";
 	</script>
 	<script src="https://www.digigold.com/js/jQuery.app-sms.js"></script>
 	<script src="https://www.digigold.com/js/jQuery.rates.js"></script>
